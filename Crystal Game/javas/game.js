@@ -31,7 +31,7 @@ function newgame() {
     totalPoints = 0;
     $("#random").text(randomNumber); //displays correctly
     $("#points").text(totalPoints);  //displays correctly
-    $("#score").html("Wins: " + wins + '<br>' + "Losses: " + loss);
+    $("#score").html("Wins: " + wins + '<br>' +  '<br>' + "Losses: " + loss);
 }
 
 function youwon() {
@@ -83,7 +83,7 @@ function crystal3() {
 function crystal4() {
     totalPoints = totalPoints + crystal4value;
     console.log(totalPoints);
-    $("#random").text("The Number to get is:" + randomNumber); //displays correctly
+    $("#random").text(randomNumber); //displays correctly
     $("#points").text(totalPoints);  //displays correctly
     test();
 }

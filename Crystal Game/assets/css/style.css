@@ -3,17 +3,19 @@
 }
 
 body{
-    width: 80%;
-    margin: auto;
     background-color: lightblue; 
+    margin-top: 10px;
     /* I need to learn to add background images */
+     background-image: url("https://comps.canstockphoto.com/cartoon-crystal-vector-pop-art-fashion-eps-vectors_csp51681032.jpg");
+    background-repeat: repeat;
+    /* background-size: cover;  */
 }
 
 .container{
     display: flex;
     height: 150px;
-    background-color: lightblue;
-    margin-left: 20px;
+    margin-left: 20px; 
+    width: 40%;
 }
 
 #title{
@@ -31,9 +33,12 @@ body{
 
 button {
     background-color: chocolate;
-    width: 10%;
-    height: 40px;
-    margin: 10px;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 8px black;
 }
 
 .box {
@@ -55,10 +60,9 @@ button {
     background-color: mediumseagreen;
     color: black;
     height: 40px;
-    width: 25%;
+    width: 50%;
     height: 135px;
     margin-bottom: 10px;
-    margin-left: 10px;
     font-size: 35px
 
 }
@@ -69,7 +73,7 @@ button {
     width: 10%;
     height: 40px;
     margin: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-left: 20px;
 }
 
@@ -85,26 +89,30 @@ button {
 
 #crystal1 {
     background-color: aqua;
+    background-image: url("https://www.gaia.com/wp-content/uploads/article-migration-image-how-to-work-with-crystals.png");
 }
 
 #crystal2 {
     background-color: aqua;
+    background-image: url("https://www.fossilera.com/sp/124632/tangerine-hematite-quartz/quartz.jpg");
 }
 #crystal3 {
     background-color: aqua;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/71Imq3vXaGL._SL1440_.jpg")
 }
 #crystal4 {
     background-color: aqua;
+    background-image: url("https://donnalakes.com/wp-content/uploads/2018/05/Crystal.png")
 }
 
 #score {
     background-color: aqua;
     color: black;
-    width: 10%;
+    width: 50%;
     height: 40px;
     margin-bottom: 10px;
-    margin-left: 10px;
     height: 90%;
+    margin-left: 30px;
     font-size: 20px;
 }
 
@@ -116,4 +124,9 @@ button {
     font-size: 35px;
     color: white;
     margin-left: 20px;
+}
+
+#img{
+    height: 100%;
+    width: 100%;
 }
