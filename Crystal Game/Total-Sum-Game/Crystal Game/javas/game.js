@@ -31,7 +31,7 @@ function newgame() {
     totalPoints = 0;
     $("#random").text(randomNumber); //displays correctly
     $("#points").text(totalPoints);  //displays correctly
-    $("#score").html("Wins: " + wins + '<br>' + "Losses: " + loss);
+    $("#score").text("Total Wins: " + wins + "Total Losses: " + loss);
 }
 
 function youwon() {
